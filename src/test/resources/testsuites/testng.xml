@@ -19,12 +19,12 @@
             </class>
         </classes>
     </test>
-    <test name="Test Controls" enabled="true">
+    <test name="Test Controls" enabled="false">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="com.herokuapp.theinternet.controls.DragAndDrop">
+            <class name="com.herokuapp.theinternet.controls.TestControls">
                 <methods>
-                    <include name="slider"/>
+                    <include name="enterKeys"/>
                 </methods>
             </class>
         </classes>
@@ -35,5 +35,10 @@
             <class name="com.ultimateqa.RadioButtonTests"/>
         </classes>
     </test>
-
+    <test name="Test JS script" enabled="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.herokuapp.theinternet.JSError.JSErrors"/>
+        </classes>
+    </test>
 </suite>

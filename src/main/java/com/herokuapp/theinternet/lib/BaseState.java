@@ -23,7 +23,9 @@ import org.testng.annotations.Parameters;
 import java.time.Duration;
 
 public class BaseState {
+
     protected Logger log ;
+
     protected WebDriver driver;
     protected HomePage homePage;
     protected String homePageUrl = "https://the-internet.herokuapp.com/";

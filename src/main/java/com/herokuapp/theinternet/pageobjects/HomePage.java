@@ -18,12 +18,6 @@ public class HomePage  {
     protected String framesLinkText = "Frames";
     protected String infiniteScroll = "Infinite Scroll";
 
-
-
-
-
-
-
     public HomePage(WebDriver driver, Logger log){
         this.driver = driver;
         this.log = log;
